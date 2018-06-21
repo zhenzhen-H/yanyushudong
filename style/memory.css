@@ -1,0 +1,17 @@
+#header{
+    width:1200px;
+    height: 100px;
+    background-color: darkgrey;
+    margin:0 auto;
+}
+#caption{
+    width:1200px;
+    height:266px;
+    line-height: 266px;
+    background-color: darksalmon;
+    margin:0 auto;
+}
+#caption h2{
+    font-size:40px;
+    text-align:center;
+}
