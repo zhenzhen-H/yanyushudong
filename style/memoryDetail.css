@@ -1,0 +1,20 @@
+#header{
+    width:1200px;
+    height: 100px;
+    background-color: darkgrey;
+    margin:0 auto;
+}
+#banner{
+    width:1200px;
+    margin:0 auto;
+    background: lightblue;
+}
+#banner img{
+    width:600px;
+    height:800px;
+    float:left;
+}
+#banner .right{
+    float:left;
+    width:380px;
+}
