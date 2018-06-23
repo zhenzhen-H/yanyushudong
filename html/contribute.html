@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../style/reset.css">
+    <link rel="stylesheet" href="../style/contribute.css">
+    <title>投稿</title>
+</head>
+<body>
+    <div id="head">
+
+    </div>
+    <div id="container">
+        <div class="content clear">
+            <div class="contributeTitle">
+                投稿
+            </div>  
+            <div class="tip">
+                下笔吧，我准备好接收你的感动了
+            </div>
+            <div class="form-group">
+                <label for="contributeTitle" class="control-label">标题</label>
+        
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="contributeTitle" id="contributeTitle" placeholder="请输入标题">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="contributeAuthor" class="control-label">作者</label>
+        
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="contributeAuthor" id="contributeAuthor" placeholder="请输入作者">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="contributeType" class="control-label">请选择文章类型</label>
+        
+                <div class="col-sm-10">
+                    <!-- <input type="text" class="form-control" name="contributeType" id="contributeType" placeholder="请输入作者"> -->
+                    <input list="browsers" class="form-control">
+                    <datalist id="browsers">
+                        <option value="春">
+                        <option value="Firefox">
+                        <option value="Chrome">
+                        <option value="Opera">
+                        <option value="Safari">        
+                        <option value="Firefox">
+                        <option value="Chrome">
+                        <option value="Opera">
+                        <option value="Safari">
+                    </datalist>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="contributeImage" class="control-label">添加图片</label>
+                <div class="col-sm-10">
+                        <input type="file" name="contributeImage" id="contributeImage" placeholder="请选择图片">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="contributeImage" class="control-label">正文</label>
+                <div class="colContent">
+                       
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="txtDesc" class="control-label">备注说明</label>
+                <div class="col-sm-10">
+                    <textarea id="txtDesc" style="width: 1028px; height: 120px;padding: 12px 14px;outline:none" name="txtDesc" class="form-control" placeholder="对于这篇文字的一些说明"></textarea>
+                </div>
+            </div>
+            <div class="contributeFoot">
+                <button type="button" id="btnContribute" class="btnContribute">提交</button>
+            </div>
+        </div>
+    </div>
+    <div id="foot">
+
+    </div>
+</body>
+</html>

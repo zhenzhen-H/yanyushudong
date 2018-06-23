@@ -1,0 +1,14 @@
+body{
+    background: #fff;
+}
+#head{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+}
+#registContent{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    background: url(../images/regist.jpg) no-repeat center top;
+}

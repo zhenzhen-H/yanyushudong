@@ -1,0 +1,37 @@
+body{
+    background: #fff;
+}
+#head{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+}
+#container{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+.maincontain{
+    min-height: 800px;
+    width: 620px;
+    font-size: 24px;
+    line-height: 40px;
+    margin: 40px auto 12px;
+    /* margin-bottom: 12px; */
+    padding: 105px 40px 70px;
+    background-color: #f19ec2;
+    color: #f1ecf5;
+    box-shadow: -1px 3px 12px #a9a7a7;
+}
+.maincontain .letterTitle{
+    text-align: left;
+}
+.maincontain .letterContent{
+    margin: 15px 0px;
+}
+.maincontain .letterAuthor{
+    text-align: right;
+}
+.maincontain .letterDatetime{
+    text-align: right;
+}

@@ -1,0 +1,80 @@
+body{
+    background: #fff;
+}
+#head{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+}
+#lettertitle{
+    width: 1200px;
+    font-size: 22px;
+    height: 138px;
+    margin: 0 auto;
+}
+#lettertitle .box{
+    width: 155px;
+    height: 60px;
+    border-radius: 4px;
+    background: #ffff00;
+    margin: 26px 0 0 42px;
+    line-height: 60px;
+    text-align: center;
+}
+#banner{
+   width:1200px;
+   height: 402px;
+   margin: 0 auto;  
+}
+#banner div{
+    width: 600px;
+    height: 402px;
+    float: left;
+}
+#banner div a img{
+    width: 600px;
+    height: 402px; 
+    transition: all .2s linear;
+    border: none;
+    
+}
+#banner div a:hover img{
+    z-index: 2;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.1);
+    transform: translate3d(0, -2px, 0);
+}
+#container{
+    width: 1200px;
+    height: 100%;
+    margin: 88px auto 190px;
+    border: 1px solid #f1f1f1;
+    border-top: none;
+    border-right: none;
+}
+#container a{
+    display: block;
+    width: 240px;
+    float: left;
+    padding: 0px 20px;
+    height: 136px;
+    line-height: 136px;
+    text-align: center;
+    border: 1px solid #f1f1f1;
+    border-bottom: none;
+    border-left: none;
+    font-size: 16px;
+    box-sizing: border-box;
+    /* border: none; */
+    color: #101010;
+    transition: all .2s linear;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#container a:hover{
+    box-shadow: 0 4px 4px rgba(0,0,0,0.1);
+    transform: translate3d(0, -2px, 0);
+    color: #ffff00;
+}
+
+

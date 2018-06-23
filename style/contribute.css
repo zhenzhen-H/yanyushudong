@@ -1,0 +1,73 @@
+body{
+    background: #fff;
+}
+#head{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+}
+#container{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.content{
+    width: 1088px;
+    margin: 26px 40px 100px 72px;
+    height: 100%;
+    text-align: left;
+    color: #333333;
+    background: url(../images/contributebj.jpg) no-repeat right top;
+}
+.contributeTitle{
+    font-size: 36px;
+    margin-top: 42px;
+    margin-left: 44px;
+    height: 36px;
+    line-height: 36px;
+}
+.tip{
+    font-size: 18px;
+    margin-top: 78px;
+    height: 18px;
+    line-height: 18px;
+}
+.form-group{
+    width: 300px; 
+    
+}
+.control-label{
+    display: block;
+    margin-top:34px; 
+    margin-bottom: 34px;
+}
+.col-sm-10{
+    margin-bottom: 30px;
+}
+.form-control{
+    width: 272px;
+    height: 36px;
+    padding: 12px 14px;
+    border: #ccc 1px solid;
+    color: #555555;
+}
+.colContent{
+    width: 1056px; 
+    height: 570px;
+    border: #ccc 1px solid;
+}
+.contributeFoot{
+    text-align: center;
+}
+.btnContribute{
+    width: 100px;
+    height: 60px;
+    background: #000000;
+    color: #f9e5e5;
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+    line-height: 60px;
+    text-align: center;
+    border: none;
+}

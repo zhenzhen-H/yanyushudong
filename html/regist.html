@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+    <link rel="stylesheet" href="../style/reset.css">
+    <link rel="stylesheet" href="../style/regist.css">
+</head>
+<body>
+    <div id="head">
+        
+    </div>
+    <div id="registContent">
+        <ul>
+            <li class="registtit"><b></b>注册</li>
+            <li>
+                <input type="text" id="txtEmail" maxlength="40" class="txtEmail" placeholder="邮箱" />
+                <i class="account-error" style="display:none">请输入正确格式的电子邮件</i>
+            </li>
+            <li>
+                <input type="text" id="password" maxlength="32" placeholder="密码" />
+                <i class="account-error" style="display:none">请输入登录密码</i>
+            </li>
+            <li>
+                <input type="text" id="repeatPassword" maxlength="32" placeholder="笔名" />
+                <i class="account-error" style="display:none">请再次输入登录密码</i>
+            </li>
+            <li class="regist-agree">
+                <span>
+                    <input type="checkbox" id="ckb" checked="checked" /> 我已阅读并同意 
+                </span>
+                <a href="#">《必要服务协议》</a>
+            </li>
+            <li>
+                <button type="submit" id="btnregister">注册</button>
+            </li>
+        </ul>
+    </div>
+    <div id="foot">
+    </div>
+</body>
+<script src="js/libs/jquery-3.3.1.js"></script>
+<script>
+    $(function(){
+         $("#btnregister").on("click",function(){
+            var username = $("#username").val();
+            var pwd = $("#password").val();
+            //console.log(username,pwd);
+            var opt = {
+                url:"http://localhost/0509/user.php",
+                type:"POST",
+                data:{username:username,password:pwd,type:"register"}
+            }
+            $.ajax(opt)
+            .then(function(res){
+             console.log(res);
+                if(res == "1"){
+                    alert("注册成功！即将为您跳转到首页");
+                    location.href="index.html";
+                    
+                }else{
+                    alert("用户名重名，注册失败！");
+                    
+                }
+            })
+        })
+})
+</script>
+</html>
